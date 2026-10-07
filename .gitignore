@@ -8,6 +8,10 @@ DerivedData/
 build/
 *.xcresult
 
+# Raw videos (the README uses docs/demo.gif)
+*.mov
+*.mp4
+
 # Arduino
 *.bin
 *.hex

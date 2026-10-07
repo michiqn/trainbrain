@@ -13,9 +13,10 @@ self-contained display could well come in handy in another project someday.
 Side note: I also built a basic pull-up counter with a distance sensor that updates the display
 with every rep. It's a separate experiment and isn't connected to the vocabulary app.
 
-<!-- TODO: GIF of the device in action -->
-
-<img src="docs/hardware-inside.jpg" width="600" alt="TrainBrain device with the case open: e-ink display and rotary knob on top, Arduino Nano 33 BLE, perfboard and modules inside the 3D-printed case">
+<p>
+  <img src="docs/demo.gif" width="480" alt="Turning the knob on the device: the e-ink display switches to the next word and then shows its translation and example sentence">
+  <img src="docs/device-front.jpg" width="360" alt="TrainBrain device on a desk: black 3D-printed case with rotary knob and e-ink display showing 'TrainBrain – Waiting for connection'">
+</p>
 
 **SwiftUI · CoreBluetooth · Swift Testing · Arduino Nano 33 BLE · ArduinoBLE · GxEPD2**
 
@@ -28,6 +29,12 @@ with every rep. It's a separate experiment and isn't connected to the vocabulary
 
 The app also works without the device. The quiz then runs in the app only.
 
+<p>
+  <img src="docs/app-launch.png" width="240" alt="Launch screen: connected to the device, choice between Workout Counter and Vocabulary Trainer">
+  <img src="docs/app-quiz.png" width="240" alt="Vocabulary quiz showing the word 'learn', its translation 'lernen' and an example sentence">
+  <img src="docs/app-devices.jpg" width="240" alt="Device list while scanning, with TrainBrain among nearby Bluetooth devices">
+</p>
+
 ## Repository layout
 
 ```
@@ -38,6 +45,8 @@ firmware/   Arduino sketch for the display (TrainBrain.ino, icons.h)
 ## Hardware
 
 A self-contained, battery-powered device in a 3D-printed case:
+
+<img src="docs/hardware-inside.jpg" width="600" alt="TrainBrain device with the case open: e-ink display and rotary knob on top, Arduino Nano 33 BLE, perfboard and modules inside the 3D-printed case">
 
 | Part | Details |
 |---|---|
