@@ -1,7 +1,17 @@
 # TrainBrain
 
-An iPhone app and a battery-powered e-ink device that work together over Bluetooth LE.
-A rotary encoder on the device counts push-ups and pull-ups, or steps through a vocabulary quiz.
+TrainBrain is one of my early projects. I mainly used it to get better at soldering and the basic
+maker skills: wiring up modules, designing and 3D printing a case, and getting hardware and an
+iPhone app to talk to each other.
+
+What came out of it is a self-contained e-ink display: battery-powered, with a rotary knob, and
+controlled from my iPhone over Bluetooth. It counts push-ups and pull-ups, or quizzes me on vocabulary.
+
+I'm not taking the app idea any further. The fundamentals are a solid base, though, and the
+self-contained display could well come in handy in another project someday.
+
+Side note: I also built a basic pull-up counter with a distance sensor that updates the display
+with every rep. It's a separate experiment and isn't connected to the vocabulary app.
 
 <!-- TODO: GIF of the device in action -->
 
@@ -84,9 +94,8 @@ The feature logic is covered by unit tests (Swift Testing) that use a fake displ
 - The display fonts are 7-bit ASCII, so umlauts (ä, ö, ü, ß) don't render.
 - After a reconnect, the display shows its welcome screen until a mode is selected again.
 
-## Ideas
+## If I pick it up again
 
 - Storing the vocabulary on the microSD card so the quiz also works without the phone
 - Showing the battery level in the app and on the display
-- Counting pull-ups automatically with a distance sensor (early experiments done)
 - A desk vocabulary buddy that reveals words through eye tracking and gestures
