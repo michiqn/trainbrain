@@ -34,8 +34,9 @@ A self-contained, battery-powered device in a 3D-printed case:
 | Microcontroller | Arduino Nano 33 BLE |
 | Display | 2.13" e-ink, 250 × 122 px (DEPG0213BN, SSD1680): CS 10, DC 8, RST 9, BUSY 7 |
 | Input | Rotary encoder with push button: CLK 2, DT 3, SW 6 |
-| Power | LiPo battery with a step-down converter to 3.3 V |
+| Power | 500 mAh LiPo battery, USB-C charging, step-down converter to 3.3 V |
 | Storage | microSD card module (not used by the firmware yet) |
+| Indicator | Red LED that lights up while the e-ink panel refreshes |
 | Case | 3D-printed, designed by me |
 
 Everything is soldered on a perfboard that sits in the bottom of the case.
