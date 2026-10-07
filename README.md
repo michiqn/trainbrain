@@ -38,8 +38,10 @@ The app also works without the device. The quiz then runs in the app only.
 ## Repository layout
 
 ```
-ios/        Xcode project (iOS 18.4+)
-firmware/   Arduino sketch for the display (TrainBrain.ino, icons.h)
+ios/                  Xcode project (iOS 18.4+)
+firmware/             Arduino sketch for the display (TrainBrain.ino, icons.h)
+hardware/enclosure/   STL files of the 3D-printed case
+docs/                 Photos, screenshots and the demo GIF
 ```
 
 ## Hardware
@@ -56,9 +58,20 @@ A self-contained, battery-powered device in a 3D-printed case:
 | Power | 500 mAh LiPo battery, USB-C charging, step-down converter to 3.3 V |
 | Storage | microSD card module (not used by the firmware yet) |
 | Indicator | Red LED that lights up while the e-ink panel refreshes |
-| Case | 3D-printed, designed by me |
+| Case | 3D-printed in four parts, designed by me ([STL files](#case)) |
 
 Everything is soldered on a perfboard that sits in the bottom of the case.
+
+### Case
+
+The case is printed in four parts. GitHub shows the STL files as 3D models you can rotate, so click one to have a look.
+
+| Part | File | Size (mm) |
+|---|---|---|
+| Body | [`body.stl`](hardware/enclosure/body.stl) | 106 × 59 × 36 |
+| Back cover | [`back-cover.stl`](hardware/enclosure/back-cover.stl) | 106 × 59 × 10 |
+| Rack | [`rack.stl`](hardware/enclosure/rack.stl) | 106 × 52 × 14 |
+| Top cover | [`top-cover.stl`](hardware/enclosure/top-cover.stl) | 103 × 30 × 3 |
 
 ## Getting started
 
