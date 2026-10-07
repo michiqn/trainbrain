@@ -18,8 +18,6 @@ with every rep. It's a separate experiment and isn't connected to the vocabulary
   <img src="docs/device-front.jpg" width="49%" alt="TrainBrain device on a desk: black 3D-printed case with rotary knob and e-ink display showing 'TrainBrain – Waiting for connection'">
 </p>
 
-**SwiftUI · CoreBluetooth · Swift Testing · Arduino Nano 33 BLE · ArduinoBLE · GxEPD2**
-
 ## What it does
 
 | Mode | On the device | In the app |
