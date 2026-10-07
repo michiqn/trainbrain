@@ -1,9 +1,11 @@
 # TrainBrain
 
-An iPhone app and an Arduino-driven e-ink display that work together over Bluetooth LE.
+An iPhone app and a battery-powered e-ink device that work together over Bluetooth LE.
 A rotary encoder on the device counts push-ups and pull-ups, or steps through a vocabulary quiz.
 
-<!-- TODO: photo or GIF of the device in action -->
+<!-- TODO: GIF of the device in action -->
+
+<img src="docs/hardware-inside.jpg" width="600" alt="TrainBrain device with the case open: e-ink display and rotary knob on top, Arduino Nano 33 BLE, perfboard and modules inside the 3D-printed case">
 
 **SwiftUI · CoreBluetooth · Swift Testing · Arduino Nano 33 BLE · ArduinoBLE · GxEPD2**
 
@@ -25,9 +27,18 @@ firmware/   Arduino sketch for the display (TrainBrain.ino, icons.h)
 
 ## Hardware
 
-- Arduino Nano 33 BLE
-- 2.13" e-ink display, 250 × 122 px (DEPG0213BN, SSD1680): CS 10, DC 8, RST 9, BUSY 7
-- Rotary encoder with push button: CLK 2, DT 3, SW 6
+A self-contained, battery-powered device in a 3D-printed case:
+
+| Part | Details |
+|---|---|
+| Microcontroller | Arduino Nano 33 BLE |
+| Display | 2.13" e-ink, 250 × 122 px (DEPG0213BN, SSD1680): CS 10, DC 8, RST 9, BUSY 7 |
+| Input | Rotary encoder with push button: CLK 2, DT 3, SW 6 |
+| Power | LiPo battery with a step-down converter to 3.3 V |
+| Storage | microSD card module (not used by the firmware yet) |
+| Case | 3D-printed, designed by me |
+
+Everything is soldered on a perfboard that sits in the bottom of the case.
 
 ## Getting started
 
@@ -74,5 +85,7 @@ The feature logic is covered by unit tests (Swift Testing) that use a fake displ
 
 ## Ideas
 
+- Storing the vocabulary on the microSD card so the quiz also works without the phone
+- Showing the battery level in the app and on the display
 - Counting pull-ups automatically with a distance sensor (early experiments done)
 - A desk vocabulary buddy that reveals words through eye tracking and gestures
