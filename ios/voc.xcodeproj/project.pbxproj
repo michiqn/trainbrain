@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE48B082DA6CC1000FEFD11 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE48B072DA6CC1000FEFD11 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE48AB42DA6C77B00FEFD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE48A9E2DA6C77800FEFD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE48AA52DA6C77800FEFD11;
+			remoteInfo = voc;
+		};
+		DCE48ABE2DA6C77B00FEFD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE48A9E2DA6C77800FEFD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE48AA52DA6C77800FEFD11;
+			remoteInfo = voc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE48AA62DA6C77800FEFD11 /* voc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE48AB32DA6C77B00FEFD11 /* vocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE48ABD2DA6C77B00FEFD11 /* vocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE48B072DA6CC1000FEFD11 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DCE48B0A2DA6CD1200FEFD11 /* Exceptions for "voc" folder in "voc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DCE48AA52DA6C77800FEFD11 /* voc */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DCE48AA82DA6C77800FEFD11 /* voc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DCE48B0A2DA6CD1200FEFD11 /* Exceptions for "voc" folder in "voc" target */,
+			);
+			path = voc;
+			sourceTree = "<group>";
+		};
+		DCE48AB62DA6C77B00FEFD11 /* vocTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = vocTests;
+			sourceTree = "<group>";
+		};
+		DCE48AC02DA6C77B00FEFD11 /* vocUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = vocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE48AA32DA6C77800FEFD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE48B082DA6CC1000FEFD11 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE48AB02DA6C77B00FEFD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE48ABA2DA6C77B00FEFD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE48A9D2DA6C77800FEFD11 = {
+			isa = PBXGroup;
+			children = (
+				DCE48AA82DA6C77800FEFD11 /* voc */,
+				DCE48AB62DA6C77B00FEFD11 /* vocTests */,
+				DCE48AC02DA6C77B00FEFD11 /* vocUITests */,
+				DCE48B062DA6CC1000FEFD11 /* Frameworks */,
+				DCE48AA72DA6C77800FEFD11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE48AA72DA6C77800FEFD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE48AA62DA6C77800FEFD11 /* voc.app */,
+				DCE48AB32DA6C77B00FEFD11 /* vocTests.xctest */,
+				DCE48ABD2DA6C77B00FEFD11 /* vocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE48B062DA6CC1000FEFD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE48B072DA6CC1000FEFD11 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE48AA52DA6C77800FEFD11 /* voc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE48AC72DA6C77B00FEFD11 /* Build configuration list for PBXNativeTarget "voc" */;
+			buildPhases = (
+				DCE48AA22DA6C77800FEFD11 /* Sources */,
+				DCE48AA32DA6C77800FEFD11 /* Frameworks */,
+				DCE48AA42DA6C77800FEFD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DCE48AA82DA6C77800FEFD11 /* voc */,
+			);
+			name = voc;
+			packageProductDependencies = (
+			);
+			productName = voc;
+			productReference = DCE48AA62DA6C77800FEFD11 /* voc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE48AB22DA6C77B00FEFD11 /* vocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE48ACA2DA6C77B00FEFD11 /* Build configuration list for PBXNativeTarget "vocTests" */;
+			buildPhases = (
+				DCE48AAF2DA6C77B00FEFD11 /* Sources */,
+				DCE48AB02DA6C77B00FEFD11 /* Frameworks */,
+				DCE48AB12DA6C77B00FEFD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE48AB52DA6C77B00FEFD11 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCE48AB62DA6C77B00FEFD11 /* vocTests */,
+			);
+			name = vocTests;
+			packageProductDependencies = (
+			);
+			productName = vocTests;
+			productReference = DCE48AB32DA6C77B00FEFD11 /* vocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCE48ABC2DA6C77B00FEFD11 /* vocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE48ACD2DA6C77B00FEFD11 /* Build configuration list for PBXNativeTarget "vocUITests" */;
+			buildPhases = (
+				DCE48AB92DA6C77B00FEFD11 /* Sources */,
+				DCE48ABA2DA6C77B00FEFD11 /* Frameworks */,
+				DCE48ABB2DA6C77B00FEFD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE48ABF2DA6C77B00FEFD11 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCE48AC02DA6C77B00FEFD11 /* vocUITests */,
+			);
+			name = vocUITests;
+			packageProductDependencies = (
+			);
+			productName = vocUITests;
+			productReference = DCE48ABD2DA6C77B00FEFD11 /* vocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE48A9E2DA6C77800FEFD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					DCE48AA52DA6C77800FEFD11 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DCE48AB22DA6C77B00FEFD11 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DCE48AA52DA6C77800FEFD11;
+					};
+					DCE48ABC2DA6C77B00FEFD11 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DCE48AA52DA6C77800FEFD11;
+					};
+				};
+			};
+			buildConfigurationList = DCE48AA12DA6C77800FEFD11 /* Build configuration list for PBXProject "voc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE48A9D2DA6C77800FEFD11;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DCE48AA72DA6C77800FEFD11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE48AA52DA6C77800FEFD11 /* voc */,
+				DCE48AB22DA6C77B00FEFD11 /* vocTests */,
+				DCE48ABC2DA6C77B00FEFD11 /* vocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE48AA42DA6C77800FEFD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE48AB12DA6C77B00FEFD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE48ABB2DA6C77B00FEFD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE48AA22DA6C77800FEFD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE48AAF2DA6C77B00FEFD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE48AB92DA6C77B00FEFD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE48AB52DA6C77B00FEFD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE48AA52DA6C77800FEFD11 /* voc */;
+			targetProxy = DCE48AB42DA6C77B00FEFD11 /* PBXContainerItemProxy */;
+		};
+		DCE48ABF2DA6C77B00FEFD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE48AA52DA6C77800FEFD11 /* voc */;
+			targetProxy = DCE48ABE2DA6C77B00FEFD11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCE48AC52DA6C77B00FEFD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE48AC62DA6C77B00FEFD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE48AC82DA6C77B00FEFD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voc/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth to connect to your Arduino E-ink display device";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app needs Bluetooth to connect to your Arduino LCD display";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.michiQn.voc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE48AC92DA6C77B00FEFD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = voc/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app needs Bluetooth to connect to your Arduino E-ink display device";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app needs Bluetooth to connect to your Arduino LCD display";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.michiQn.voc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCE48ACB2DA6C77B00FEFD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.michiQn.vocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voc";
+			};
+			name = Debug;
+		};
+		DCE48ACC2DA6C77B00FEFD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.michiQn.vocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voc";
+			};
+			name = Release;
+		};
+		DCE48ACE2DA6C77B00FEFD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.michiQn.vocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voc;
+			};
+			name = Debug;
+		};
+		DCE48ACF2DA6C77B00FEFD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LL952Y33TB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.michiQn.vocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = voc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE48AA12DA6C77800FEFD11 /* Build configuration list for PBXProject "voc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE48AC52DA6C77B00FEFD11 /* Debug */,
+				DCE48AC62DA6C77B00FEFD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE48AC72DA6C77B00FEFD11 /* Build configuration list for PBXNativeTarget "voc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE48AC82DA6C77B00FEFD11 /* Debug */,
+				DCE48AC92DA6C77B00FEFD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE48ACA2DA6C77B00FEFD11 /* Build configuration list for PBXNativeTarget "vocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE48ACB2DA6C77B00FEFD11 /* Debug */,
+				DCE48ACC2DA6C77B00FEFD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE48ACD2DA6C77B00FEFD11 /* Build configuration list for PBXNativeTarget "vocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE48ACE2DA6C77B00FEFD11 /* Debug */,
+				DCE48ACF2DA6C77B00FEFD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE48A9E2DA6C77800FEFD11 /* Project object */;
+}

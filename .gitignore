@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcresult
+
+# Arduino
+*.bin
+*.hex
+*.elf
+
+# Empty Arduino template left over from an earlier experiment
+FlashMemoryManager.ino/
