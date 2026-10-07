@@ -14,8 +14,8 @@ Side note: I also built a basic pull-up counter with a distance sensor that upda
 with every rep. It's a separate experiment and isn't connected to the vocabulary app.
 
 <p>
-  <img src="docs/demo.gif" width="480" alt="Turning the knob on the device: the e-ink display switches to the next word and then shows its translation and example sentence">
-  <img src="docs/device-front.jpg" width="360" alt="TrainBrain device on a desk: black 3D-printed case with rotary knob and e-ink display showing 'TrainBrain – Waiting for connection'">
+  <img src="docs/demo.gif" width="49%" alt="Turning the knob on the device: the e-ink display reveals the translation 'Hallo Welt' and an example sentence for 'Hello World'">
+  <img src="docs/device-front.jpg" width="49%" alt="TrainBrain device on a desk: black 3D-printed case with rotary knob and e-ink display showing 'TrainBrain – Waiting for connection'">
 </p>
 
 **SwiftUI · CoreBluetooth · Swift Testing · Arduino Nano 33 BLE · ArduinoBLE · GxEPD2**
